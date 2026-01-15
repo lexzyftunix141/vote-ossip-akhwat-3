@@ -306,7 +306,7 @@ function initializeCountdownTimer() {
     }
     
     // Set the election date (20 Januari 2026)
-    const countDownDate = new Date("January 17, 2026 00:00:00").getTime();
+    const countDownDate = new Date("January 17, 2026 23:00:00").getTime();
     
     // Update countdown every second
     const countdownInterval = setInterval(updateCountdown, 1000);
@@ -2901,5 +2901,6 @@ document.addEventListener('DOMContentLoaded', function() {
     `;
     document.head.appendChild(style);
 });
+
 
 
